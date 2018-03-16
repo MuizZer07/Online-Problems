@@ -1,0 +1,39 @@
+Crossword Puzzles
+Limits: 1s, 512 MB
+
+A crossword puzzle is usually a grid of RxC cells. Initially, each cell is either empty or blocked. The player has to write words in consecutive empty squares from top to bottom or left to right. He cannot leave any square empty or write in any blocked cell.
+
+For this problem, you will be given a finished crossword puzzle grid. Your task is to find the lexicographical smallest word which is at least 2 characters long. A word is a consecutive sequence of letters bound by cell borders or blocked cells either at horizontal or at vertical direction.
+
+Input
+
+First line of input is an integer T (T <= 100), the number of each test cases. Format of each test case is described below.
+
+First line of each case will contain two integers R and C (1 <= R, C <= 100), the number of rows and columns respectively. Each of the following R lines will have C characters each. Characters can only be a lowercase alphabet or an uppercase ‘X’ to represent a blocked cell.
+
+Output
+
+For each case, print one line of output in the format “Case p: s” where p is the case number and s is the desired string. It is guaranteed that there will be a valid answer for each case.
+
+Samples
+
+Input	Output
+3
+4 4
+luka
+oXaX
+kula
+iXaX
+4 4
+luka
+oXaX
+kula
+iXas
+4 5
+adaca
+daXXb
+abbXb
+abbac
+Case 1: kala
+Case 2: as
+Case 3: abb

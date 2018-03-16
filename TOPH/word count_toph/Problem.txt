@@ -1,0 +1,19 @@
+Word Count
+Limits: 1s, 512 MB
+
+Counting the frequencies of words are a basic and important task in natural language processing. In this problem, you will be given a text, and you have to print the word that has occurred the most number of times in that text.
+
+Input
+
+The input contain at most 100 lines. Each of these lines will have at most 100 words each. Each word will consist of only alphabetical characters. Each word will have at most 20 characters each. A line will only have words and spaces.
+
+Output
+
+For each dataset, output the word that has appeared the most number of times in the dataset. It is guaranteed that only one word will have the most number of occurrences in a dataset.
+
+Samples
+
+Input	Output
+big league
+little league
+big and little league	league
